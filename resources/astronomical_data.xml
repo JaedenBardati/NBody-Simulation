@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bodies>
+    <Sun>
+        <type>star</type>
+        <orbital_data>
+            <parent>Milky Way Core</parent>
+            <semimajor_axis unit="ly" order="4">2.72</semimajor_axis>
+            <inclination unit="deg" order="1">6</inclination>
+        </orbital_data>
+        <physical_data>
+            <mass unit="kg" order="30">1.989</mass> 
+            <radius unit="m" order="8">6.9551</radius>
+            <luminosity unit="W" order="26">3.828</luminosity>
+            <temperature unit="K" order="3">5.780</temperature>
+        </physical_data>
+        <rotation_data>
+            <rotational_velocity unit="m/s" order="2">2.0569</rotational_velocity>
+            <obliquity unit="deg">7.25</obliquity>
+        </rotation_data>
+    </Sun>
+    <Earth>
+        <type>planet</type>
+        <orbital_data>
+            <parent>Sun</parent>
+            <semimajor_axis unit="m" order="11">1.496</semimajor_axis>
+            <orbital_velocity unit="m" order="4">2.978</orbital_velocity>
+            <inclination unit="deg">7.25</inclination>
+        </orbital_data>
+        <physical_data>
+            <mass unit="kg" order="24">5.97237</mass>
+            <radius unit="m" order="6">6.371</radius>
+        </physical_data>
+        <rotation_data>
+            <rotational_velocity unit="m/s" order="2">4.651</rotational_velocity>
+            <obliquity unit="deg" order="1">2.3439</obliquity>
+        </rotation_data>
+    </Earth>
+    <Moon>
+        <type>satellite</type>
+        <orbital_data>
+            <parent>Earth</parent>
+            <semimajor_axis unit="m" order="8">3.84399</semimajor_axis>
+            <orbital_velocity unit="m" order="3">1.022</orbital_velocity>
+            <inclination unit="deg">5.145</inclination>
+        </orbital_data>
+        <physical_data>
+            <mass unit="kg" order="22">7.342</mass> 
+            <radius unit="m" order="6">1.7374</radius>
+        </physical_data>
+        <rotation_data>
+            <rotational_velocity unit="m/s">4.627</rotational_velocity>
+            <obliquity unit="deg">6.687</obliquity>
+        </rotation_data>
+    </Moon>
+    <Mercury>
+        <type>planet</type>
+        <orbital_data>
+            <parent>Sun</parent>
+            <semimajor_axis unit="m" order="10">6.98169</semimajor_axis>
+            <orbital_velocity unit="m" order="4">4.7362</orbital_velocity>
+            <inclination unit="deg">3.38</inclination>
+        </orbital_data>
+        <physical_data>
+            <mass unit="kg" order="23">3.3011</mass>
+            <radius unit="m" order="6">2.4397</radius>
+        </physical_data>
+        <rotation_data>
+            <rotational_velocity unit="m/s">3.026</rotational_velocity>
+            <obliquity unit="deg" order="-2">3.4</obliquity>
+        </rotation_data>
+    </Mercury>
+    <Venus>
+        <type>planet</type>
+        <orbital_data>
+            <parent>Sun</parent>
+            <semimajor_axis unit="m" order="11">1.08939</semimajor_axis>
+            <orbital_velocity unit="m" order="4">3.502</orbital_velocity>
+            <inclination unit="deg">3.86</inclination>
+        </orbital_data>
+        <physical_data>
+            <mass unit="kg" order="24">4.8675</mass>
+            <radius unit="m" order="6">6.052</radius>
+        </physical_data>
+        <rotation_data>
+            <rotational_velocity unit="m/s">1.81</rotational_velocity>
+            <obliquity unit="deg">2.64</obliquity>
+        </rotation_data>
+    </Venus>
+    <Mars>
+        <type>planet</type>
+        <orbital_data>
+            <parent>Sun</parent>
+            <semimajor_axis unit="m" order="11">2.279392</semimajor_axis>
+            <orbital_velocity unit="m" order="4">2.4007</orbital_velocity>
+            <inclination unit="deg">5.65</inclination>
+        </orbital_data>
+        <physical_data>
+            <mass unit="kg" order="23">6.4171</mass>
+            <radius unit="m" order="6">3.3895</radius>
+        </physical_data>
+        <rotation_data>
+            <rotational_velocity unit="m/s" order="2">2.4117</rotational_velocity>
+            <obliquity unit="deg" order="1">2.519</obliquity>
+        </rotation_data>
+    </Mars>
+    <Jupiter>
+        <type>planet</type>
+        <orbital_data>
+            <parent>Sun</parent>
+            <semimajor_axis unit="m" order="11">7.7857</semimajor_axis>
+            <orbital_velocity unit="m" order="4">1.307</orbital_velocity>
+            <inclination unit="deg">6.09</inclination>
+        </orbital_data>
+        <physical_data>
+            <mass unit="kg" order="27">1.8982</mass>
+            <radius unit="m" order="7">6.9911</radius>
+        </physical_data>
+        <rotation_data>
+            <rotational_velocity unit="m/s" order="4">1.26</rotational_velocity>
+            <obliquity unit="deg">3.13</obliquity>
+        </rotation_data>
+    </Jupiter>
+    <Saturn>
+        <type>planet</type>
+        <orbital_data>
+            <parent>Sun</parent>
+            <semimajor_axis unit="m" order="12">1.43353</semimajor_axis>
+            <orbital_velocity unit="m" order="3">9.68</orbital_velocity>
+            <inclination unit="deg">5.51</inclination>
+        </orbital_data>
+        <physical_data>
+            <mass unit="kg" order="26">5.6834</mass>
+            <radius unit="m" order="7">5.8232</radius>
+        </physical_data>
+        <rotation_data>
+            <rotational_velocity unit="m/s" order="3">9.87</rotational_velocity>
+            <obliquity unit="deg" order="1">2.673</obliquity>
+        </rotation_data>
+    </Saturn>
+    <Uranus>
+        <type>planet</type>
+        <orbital_data>
+            <parent>Sun</parent>
+            <semimajor_axis unit="m" order="12">2.87504</semimajor_axis>
+            <orbital_velocity unit="m" order="3">6.80</orbital_velocity>
+            <inclination unit="deg">6.48</inclination>
+        </orbital_data>
+        <physical_data>
+            <mass unit="kg" order="25">8.681</mass>
+            <radius unit="m" order="7">2.5362</radius>
+        </physical_data>
+        <rotation_data>
+            <rotational_velocity unit="m/s" order="3">2.59</rotational_velocity>
+            <obliquity unit="deg" order="1">9.777</obliquity>
+        </rotation_data>
+    </Uranus>
+    <Neptune>
+        <type>planet</type>
+        <orbital_data>
+            <parent>Sun</parent>
+            <semimajor_axis unit="m" order="12">4.50</semimajor_axis>
+            <orbital_velocity unit="m" order="3">5.43</orbital_velocity>
+            <inclination unit="deg">6.43</inclination>
+        </orbital_data>
+        <physical_data>
+            <mass unit="kg" order="26">1.02413</mass>
+            <radius unit="m" order="7">2.4622</radius>
+        </physical_data>
+        <rotation_data>
+            <rotational_velocity unit="m/s" order="3">2.68</rotational_velocity>
+            <obliquity unit="deg" order="1">2.832</obliquity>
+        </rotation_data>
+    </Neptune>
+    <Trappist-1a>
+        <type>star</type>
+        <physical_data>
+            <mass unit="kg" order="29">1.77</mass>
+            <radius unit="m" order="7">8.41797</radius>
+        </physical_data>
+        <rotation_data>
+            <rotational_velocity unit="m/s" order="3">6</rotational_velocity>
+            <obliquity unit="deg">0</obliquity>
+        </rotation_data>
+    </Trappist-1a>
+    <Trappist-1b>
+        <type>planet</type>
+        <orbital_data>
+            <parent>Trappist-1a</parent>
+            <semimajor_axis unit="m" order="9">1.72752</semimajor_axis>
+            <orbital_velocity unit="m" order="4">8.3150</orbital_velocity>
+            <inclination unit="deg">89.56</inclination>
+        </orbital_data>
+        <physical_data>
+            <mass unit="kg" order="24">6.07372</mass>
+            <radius unit="m" order="6">7.149892</radius>
+        </physical_data>
+        <rotation_data>
+            <rotational_velocity unit="m/s"  order="2">3.4414</rotational_velocity>
+            <obliquity unit="deg">0</obliquity>
+        </rotation_data>
+    </Trappist-1b>
+    <Trappist-1c>
+        <type>planet</type>
+        <orbital_data>
+            <parent>Trappist-1a</parent>
+            <semimajor_axis unit="m" order="9">2.36591</semimajor_axis>
+            <orbital_velocity unit="m" order="4">7.1044</orbital_velocity>
+            <inclination unit="deg">89.70</inclination>
+        </orbital_data>
+        <physical_data>
+            <mass unit="kg" order="24">6.90385</mass>
+            <radius unit="m" order="6">6.984060</radius>
+        </physical_data>
+        <rotation_data>
+            <rotational_velocity unit="m/s" order="2">2.0972</rotational_velocity>
+            <obliquity unit="deg">0</obliquity>
+        </rotation_data>
+    </Trappist-1c>
+    <Trappist-1d>
+        <type>planet</type>
+        <orbital_data>
+            <parent>Trappist-1a</parent>
+            <semimajor_axis unit="m" order="9">3.3330974</semimajor_axis>
+            <orbital_velocity unit="m" order="4">5.9850</orbital_velocity>
+            <inclination unit="deg">89.89</inclination>
+        </orbital_data>
+        <physical_data>
+            <mass unit="kg" order="24">1.77374</mass>
+            <radius unit="m" order="6">5.0004594</radius>
+        </physical_data>
+        <rotation_data>
+            <rotational_velocity unit="m/s" order="1">8.979</rotational_velocity>
+            <obliquity unit="deg">0</obliquity>
+        </rotation_data>
+    </Trappist-1d>
+    <Trappist-1e>
+        <type>planet</type>
+        <orbital_data>
+            <parent>Trappist-1a</parent>
+            <semimajor_axis unit="m" order="9">4.380652</semimajor_axis>
+            <orbital_velocity unit="m" order="4">5.2233</orbital_velocity>
+            <inclination unit="deg">89.736</inclination>
+        </orbital_data>
+        <physical_data>
+            <mass unit="kg" order="24">4.61053</mass>
+            <radius unit="m" order="6">5.804105</radius>
+        </physical_data>
+        <rotation_data>
+            <rotational_velocity unit="m/s" order="1">6.9205</rotational_velocity>
+            <obliquity unit="deg">0</obliquity>
+        </rotation_data>
+    </Trappist-1e>
+    <Trappist-1f>
+        <type>planet</type>
+        <orbital_data>
+            <parent>Trappist-1a</parent>
+            <semimajor_axis unit="m" order="9">5.764546</semimajor_axis>
+            <orbital_velocity unit="m" order="4">4.5539</orbital_velocity>
+            <inclination unit="deg">89.719</inclination>
+        </orbital_data>
+        <physical_data>
+            <mass unit="kg" order="24">5.57803</mass>
+            <radius unit="m" order="6">6.6715313</radius>
+        </physical_data>
+        <rotation_data>
+            <rotational_velocity unit="m/s" order="1">5.27</rotational_velocity>
+            <obliquity unit="deg">0</obliquity>
+        </rotation_data>
+    </Trappist-1f>
+    <Trappist-1g>
+        <type>planet</type>
+        <orbital_data>
+            <parent>Trappist-1a</parent>
+            <semimajor_axis unit="m" order="9">7.0126874</semimajor_axis>
+            <orbital_velocity unit="m" order="4">4.1279</orbital_velocity>
+            <inclination unit="deg">89.721</inclination>
+        </orbital_data>
+        <physical_data>
+            <mass unit="kg" order="24">6.85607</mass>
+            <radius unit="m" order="6">7.3221013</radius>
+        </physical_data>
+        <rotation_data>
+            <rotational_velocity unit="m/s" order="1">4.31</rotational_velocity>
+            <obliquity unit="deg">0</obliquity>
+        </rotation_data>
+    </Trappist-1g>
+    <Trappist-1h>
+        <type>planet</type>
+        <orbital_data>
+            <parent>Trappist-1a</parent>
+            <semimajor_axis unit="m" order="9">9.265326</semimajor_axis>
+            <orbital_velocity unit="m" order="4">3.5901</orbital_velocity>
+            <inclination unit="deg">89.796</inclination>
+        </orbital_data>
+        <physical_data>
+            <mass unit="kg" order="24">1.97679</mass>
+            <radius unit="m" order="6">4.9302999</radius>
+        </physical_data>
+        <rotation_data>
+            <rotational_velocity unit="m/s" order="1">1.9104</rotational_velocity>
+            <obliquity unit="deg">0</obliquity>
+        </rotation_data>
+    </Trappist-1h>
+</bodies>

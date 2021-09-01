@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<constants>
+    <c>
+        <name>Gravitational constant</name>
+        <symbol>G</symbol>
+        <value unitsystem="SI" order="-11">6.67408</value>
+        <unit>m^3 kg^-1 s^-2</unit>
+    </c>
+    <c>
+        <name>Pi</name>
+        <symbol>pi</symbol>
+        <value unitsystem="SI" order="0">3.1415926535897932</value>
+        <unit>m^3 kg^-1 s^-2</unit>
+    </c>
+    <c>
+        <name>Speed of light in a vaccum</name>
+        <symbol>c</symbol>
+        <value unitsystem="SI" order="8">2.99792458</value>
+        <unit>m s^-1</unit>
+    </c>
+    <c>
+        <name>Plank's Constant</name>
+        <symbol>h</symbol>
+        <value unitsystem="SI" order="-34">6.62607004</value>
+        <unit>m^2 kg s^-1</unit>
+    </c>
+    <c>
+        <name>Rydberg's Constant</name>
+        <symbol>Rh</symbol>
+        <value unitsystem="SI" order="7">1.09737316</value>
+        <unit>m^-1</unit>
+    </c>
+</constants>
