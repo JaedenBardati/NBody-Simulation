@@ -1,5 +1,5 @@
 # Naive Astronomical Visual Simulation
-A naive n-body astronomical visual simulation, created to accompany a presentation for an astrophysics class in fall 2019.
+A simple visual n-body simulation of planetary orbits, created to accompany a presentation for an astrophysics class in fall 2019.
 
 The program simulates the gravitational force interaction between any number of astronomical bodies in space, with a naive particle model. The calculation is done by simply choosing a small value for dt and iterating over many steps to obtain a somewhat accurate idea of the position and velocity of each particle. The forces are very inefficiently calculated at each step by comparing each particle in the simulation to each other, no matter their distance. Various existing [solar system (Solar System Scope)](https://www.solarsystemscope.com/textures/) and [Trappist-1 (NASA)](https://informal.jpl.nasa.gov/museum/content/trappist-1-exoplanet-surfaces-noaa-science-sphere) sphere map textures have been used to render the planets and stars.
 
